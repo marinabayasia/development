@@ -1,12 +1,22 @@
 #include <stdio.h>
+#include "util.h"
 
 int main(void) {
-    int sz = 100;
+    // int sz = 100;
 
-    int a[sz];
+    // int a[sz]
 
-    for (int i = 0; i < sz; ++i) {
-        a[i] = i * i;
-        printf("okie %i dokie blah blah blah\n", a[i]);
-    }
+    int age = 0;
+
+    printf("Put your age here: ");
+    scanf("%d", age);
+    printf("Your age is %i ", age);
+    getchar();
+    // //multiplyUntil(0, sz);
+    // for (int i = 0; i < sz; ++i) {
+    //      a++ = multiplyNumberBySelf(i);
+    //      printInteger(i);
+    //  }
 }
+
+
