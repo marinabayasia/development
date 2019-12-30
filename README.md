@@ -1,3 +1,2 @@
-Hello, 
-first file
+* This is the first line of the read me 
 
