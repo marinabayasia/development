@@ -1,11 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(void) {
     int sz = 100;
+
     int a[sz];
 
     for (int i = 0; i < sz; ++i) {
-    a[i] = i * i;
+        a[i] = i * i;
+        printf("okie %i dokie\n", a[i]);
     }
-    printf('bye...\n');
 }
