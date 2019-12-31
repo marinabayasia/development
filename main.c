@@ -3,7 +3,11 @@
 
 int main(void) {
 
-    printf("hello, Marina\n");
+    int testInteger;
+    printf("Enter an integer: ");
+    scanf("%d", &testInteger);  
+    printf("Number = %d",testInteger);
+    return 0;
     // int sz = 100;
 
     // int a[sz]
