@@ -3,7 +3,7 @@
 
 int main(void) {
 
-    printf("hello, Marina\n")
+    printf("hello, Marina\n");
     // int sz = 100;
 
     // int a[sz]
